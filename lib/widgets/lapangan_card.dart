@@ -125,7 +125,7 @@ class LapanganCard extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 12),
-                  // Harga dan Fasilitas
+                  // Harga dan Kapasitas
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -160,7 +160,7 @@ class LapanganCard extends StatelessWidget {
                           const SizedBox(width: 4),
                           Text(
                             '${lapangan.kapasitas} orang',
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 12,
                               color: Colors.grey[600],
                             ),
