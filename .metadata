@@ -1,0 +1,6 @@
+[buildTypes]
+release=
+
+[flutter]
+flutter_root=/path/to/flutter
+project_type=app
